@@ -20,7 +20,7 @@ import (
 	"github.com/telepresenceio/telepresence/v2/pkg/proc"
 )
 
-//go:embed fuseftp.bits
+// go:embed fuseftp.bits
 var fuseftpBits []byte
 
 // runFuseFtpServer ensures that the fuseftp gRPC server is downloaded into the
